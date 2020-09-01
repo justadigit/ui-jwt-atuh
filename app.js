@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 
 // database connection
 const dbURI =
-  'mongodb+srv://naywin:naywin@cluster0-urly7.mongodb.net/jwt-auth?retryWrites=true&w=majority';
+  'mongodb+srv://naywin:naywin23@cluster0-urly7.mongodb.net/jwt-auth?retryWrites=true&w=majority';
 mongoose
   .connect(dbURI, {
     useNewUrlParser: true,
