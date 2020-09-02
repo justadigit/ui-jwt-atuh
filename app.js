@@ -22,7 +22,7 @@ mongoose
   })
   .then((result) => {
     console.log('Db Connect');
-    app.listen(7100);
+    app.listen(process.env.PORT || 7100);
   })
   .catch((err) => console.log(err));
 
